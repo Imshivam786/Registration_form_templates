@@ -1,0 +1,100 @@
+body {
+    background-color: rgb(158, 220, 228);
+    transition: cubic-bezier(0.95, 0.05, 0.795, 0.035);
+}
+form{
+    margin-left: 40px;
+}
+
+.General_info{
+    margin-top: 30px;
+    margin-left: 120px;
+    border: 1px whitesmoke;
+    border-radius: 8px;
+    width: 600px;
+    height: 650px;
+    background-color: rgb(247, 245, 245);
+    position: relative;
+    display: inline-block;
+}
+.General_info h4{
+    font-size: 25px;
+    color: rgb(108, 146, 251);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 5em;
+}
+.Contact_Details h4{
+    font-size: 25px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 5em;
+}
+.Contact_Details{
+    margin-top: 30px;
+    margin-right: 120px;
+    border: 1px whitesmoke;
+    border-radius: 8px;
+    width: 600px;
+    height: 650px;
+    background-color: rgb(108, 146, 251);
+    position: absolute;
+    display: inline-block;
+}
+.form{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.in_card{
+    width: 34em;
+    height: 35px;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    background-color: rgb(243, 245, 247);
+}
+
+.in_card_little{
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: rgb(243,245,247);
+    width: 15em;
+    height: 35px;
+}
+.in_card_little2{
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    margin-left: 45px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    background-color: rgb(243,245,247);
+    width: 15em;
+    height: 35px;
+}
+.incard_btn{
+    border: 2px solid rgb(243,245,247);
+    border-radius: 20px;
+    margin-left: 20px;
+    width: 10em;
+    height: 40px;
+    margin-top: 10px;
+    transition-duration: 0.4s;
+}
+.incard_btn:hover{
+    font-size: 15px;
+    transition: 4;
+    background-color: rgb(108, 146, 251);
+    border: 2px solid rgb(243,245,247);
+}
+.incard_check{
+    width: 20px;
+    height: 15px;
+
+}
